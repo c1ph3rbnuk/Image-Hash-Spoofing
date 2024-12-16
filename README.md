@@ -2,7 +2,7 @@
 This tool takes an image and an arbitray hexstring and outputs an adjusted file that displays identically to the human eye but has a SHA1 hash that begins with the given hexstring.
 
 ## Usage
-`python3 spoofrandom.py 0x2e original.png altered.png`
+`python3 spoof.py 0x2e original.png altered.png`
 
 ## Background
 Hash functions are cryptographic algorithms that take an input file,text or data and map it to a fixed-length hexstring called digest(or a hash).
@@ -13,7 +13,7 @@ Some of the properties of a hash include:
 
 `c1ph3rbnuk@DESKTOP-D97OINA:$ echo "Let's hash this text" | sha1sum 11c2b22fbc012e6b7b4630b16904f2ec7acdfd78`
 
-`c1ph3rbnuk@DESKTOP-D97OINA:$ echo "Let's hash this text." | sha1sum`
+`c1ph3rbnuk@DESKTOP-D97OINA:$ echo "Let's hash this text." | sha1sum c92ed79b4d0f811e990de0272f2223e3627a2888`
 
 * One way(Irreversibility) - it is computational infeasible to reconstruct the original input from its hash.
 

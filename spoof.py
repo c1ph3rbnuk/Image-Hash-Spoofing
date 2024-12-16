@@ -4,15 +4,15 @@ import time
 import argparse
 
 def calculate_hash(file_path):
-    """Calculates the SHA-1 hash of a given file."""
+    """Calculating the SHA-1 hash of a given file."""
     with open(file_path, "rb") as f:
         file_data = f.read()
     return hashlib.sha1(file_data).hexdigest()
 
 def random_byte_appending(target_prefix, input_file, output_file):
-    """
-    Appends random bytes to a file until the SHA-1 hash starts with the target prefix.
-    """
+ 
+    #Appending random bytes to a file until the SHA-1 hash starts with the target prefix.
+   
     with open(input_file, "rb") as f:
         original_data = f.read()
 
