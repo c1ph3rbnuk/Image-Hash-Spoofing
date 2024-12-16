@@ -11,9 +11,11 @@ Some of the properties of a hash include:
 * Determinism - the same input always produces the same hash
 * Avalanche effect - a small change is the input produces a vastly difefrent hash
 
-`c1ph3rbnuk@DESKTOP-D97OINA:$ echo "Let's hash this text" | sha1sum 11c2b22fbc012e6b7b4630b16904f2ec7acdfd78`
+`c1ph3rbnuk@DESKTOP-D97OINA:$ echo "Let's hash this text" | sha1sum 
+11c2b22fbc012e6b7b4630b16904f2ec7acdfd78`
 
-`c1ph3rbnuk@DESKTOP-D97OINA:$ echo "Let's hash this text." | sha1sum c92ed79b4d0f811e990de0272f2223e3627a2888`
+`c1ph3rbnuk@DESKTOP-D97OINA:$ echo "Let's hash this text." | sha1sum 
+c92ed79b4d0f811e990de0272f2223e3627a2888`
 
 * One way(Irreversibility) - it is computational infeasible to reconstruct the original input from its hash.
 
